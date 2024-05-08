@@ -1,0 +1,51 @@
+.bg-container{
+    background-image: linear-gradient(to left,#2a9ed8,rgb(71, 215, 203));
+    background-size: cover;
+    height: 100vh;
+}
+.input{
+    width:60%;
+    margin:30px;
+    font-size:30px;
+    font-family:'Roboto';
+    border:none;
+    padding:10px;
+    border-radius: 8px;
+
+}
+.button{
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius:8px;
+    font-size:25px;
+    background-color: rgb(54, 54, 241);
+    color:white;
+    border:none;
+    cursor: pointer;
+    outline: none;
+    margin:30px;
+}
+.no-items{
+    text-align: center;
+    color:white;
+    letter-spacing: 1px;
+}
+.list-items{
+    list-style: none;
+}
+.span-text{
+    font-size:25px;
+    font-family: 'Roboto';
+    padding:10px;
+    font-weight: 900;
+    color:white;
+    letter-spacing: 1px;
+    
+}
+.form-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
